@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Links</title>
+    <style>
+        /*
+        # = id
+        . = class
+        : = pseudoclass
+        :: = pseudo-elementos
+        > = clilderan (filho)
+        */
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: black;
+            text-decoration: none; /*Tirar o sublinhado dos links que ficam a baixo*/
+            font-weight: bold; /*deixa o texto em negrito*/
+        }
+        a:visited{
+            color:darkturquoise; /*Tag para mudar a cor dos sites que foram visitados*/
+        }
+        a:hover{
+            color: blue; /*Tag para quando passa o mouse o texto mudar de cor*/
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        a::after{
+            content: '[link]';
+            font-weight: normal;
+            color: red;
+        }
+        a::before{
+            content: '[link]';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando lista</h1>
+    <ul>
+        <li><a href="https://www.google.com" target="_blank">Repositorio github</a></li>
+        <li><a href="https://www.google.com" target="_blank">Site do ifs</a></li>
+        <li><a href="https://www.google.com" target="_blank">Meu linkedin</a></li>
+    </ul>
+</body>
+</html>

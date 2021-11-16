@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos com HTML 5</title>
+</head>
+<body>
+    <h1>Videos hospedados localmente</h1>
+    <p>Este video esta hospedado no meu proprio servidor</p>
+    <video width="500" poster="imagens/limoes-capa.png" controls> <!--comando para adicionar video no navegador com varios formatos para varios navegadores, o comando width diminuir o tamanho do video. Comando poster busca uma imagen para colocar na capa do video. (A ordem como fica os videos nos formatos e sempre importante. Videos hospedados usando essa tecnica usando a tag videos ira consumir muito trafego de dados)-->
+        <source src="midia/meu-video.mp4" type="video/mp4">
+        <source src="midia/meu-video.ogv" type="video/ogv">
+        <source src="midia/meu-video.m4v" type="video/m4v">
+        <source src="midia/meu-video.webm" type="video/webm">
+        <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    <h1>Inserindo videos do YouTube (Videos Externos)</h1>
+    <iframe width="500" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> <!--comando para colocar videos no site de maneira externa-->
+    <h1>Inserindo videos do Vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/326320898" width="500" height="315" frameborder="0" allow="autoplay; fullscreen" allowfullscreen></iframe>
+</body>
+</html>

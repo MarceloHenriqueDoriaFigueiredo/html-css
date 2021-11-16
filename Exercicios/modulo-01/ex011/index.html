@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML 5</title>
+</head>
+<body>
+    <h1>Imagem dinamica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--comando para adptar imagem nos tamanhos para celular, tablets e computadores tamnho P-->
+        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png"> <!--comando para adptar imagem nos tamanhos para celular, tablets e coomputadores tamanho G-->
+        <img src="imagens/foto-g.png" alt="Imagem flexivel"> <!--tem que seguir a ordem de tamanho P, M e G-->
+    </picture>
+    <h1>Reproduzindo audio</h1>
+    <p>Vamos aprender a reproduzir audios em HTML 5</p>
+    <audio src="midia/08 Queen - In Only Seven Days.mp3"controls autoplay></audio> <!--primeiro codigo para colocar audio, os formatos de audio para pega nos navegadores são: MP3, WAV, OGG(formato open source) para ter compatibilidade com outros navegadores-->
+    <audio preload="metadata" autoplay controls loop> <!--o comando loop remomeça o audio quando ele chegar no final-->
+        <source src="midia/10 Queen - Somebody to Love.mp3" type="audio/mpeg">
+        <source src="midia/10 Queen - Somebody to Love.mp3" type="audio/ogg">
+        <source src="midia/08 Queen - In Only Seven Days.wav" type="audio/wav"> <!--Arquivos wav são muito pesados e não prestam para sites-->
+        <p>Infelizmente seu navegador não consegue reproduzir audio. <a href="midia/10 Queen - Somebody to Love.mp3"></a>Clique aqui para baixar o audio MP3</p>
+    </audio> <!--novo comando para adicionar colocar audio no sites em varios formatos desejados, com codigos que serve também para fazer o audio funcionar em varios navegadores, o codigo metadata siginifica que vai mostrar as informações do audio como tempo, autor. Já os outros codigos dentro do preload tem funções que possa da errado para carregar um audio em navegadores diferentes (deixar os formatos dos audios na sequencia correta: MP3-MPEG, MP3-OGG WAV-WAV)-->
+</body>
+</html>
