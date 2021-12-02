@@ -1,24 +1,4 @@
-<!--
-    ## IMPORTANTE ##
-    Você tem todo o direito de usar esse material 
-    para seu próprio aprendizado. Professores também 
-    podem ter acesso a todo o conteúdo e usá-los com 
-    seus alunos. Porém todos os que usarem esse 
-    material - seja para qual for a finalidade - deverão 
-    manter a referência ao material original, disponível 
-    em https://github.com/gustavoguanabara/html-css. Este 
-    material não poderá ser utilizado em nenhuma hipótese 
-    para ser replicada - integral ou parcialmente - 
-    por autores/editoras/instituições para criar livros 
-    ou apostilas, com finalidades de obter ganho financeiro 
-    com ele.
--->
-
 <!DOCTYPE html>
-<!-- Para CSS, uma CLASSE é como se fosse uma "categoria", onde todos os objetos que pertencerem àquela classe, possuirão as mesmas propriedades. Para CSS, toda classe é representada por um ponto (.) 
-
-    Vários objetos podem pertencer à mesma classe, guarde isso no seu coração <3
--->
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
@@ -29,20 +9,20 @@
             font: 12pt Arial; 
         }
 
-        p { /* por padrão, todos os parágrafos desse site serão justificados */
+        p {
             text-align: justify;
-            text-indent: 20pt; /* todos terão aquele recuo que todo parágrafo tem no início */
+            text-indent: 20pt;
         }
 
-        p.meio { /* a não ser os que possuem a classe "meio", que ficarão centralizados */
+        p.meio { 
             text-align: center;
         }
 
-        p.dir { /* aqueles que tiverem a classe "dir", ficarão à direita */
+        p.dir {
             text-align: left;
         }
 
-        p.especial { /* e os que forem da classe "especial", terão uma cor especial de fundo */
+        p.especial {
             background-color: rgba(242, 255, 0, 0.468);
         }
 
@@ -80,7 +60,7 @@
         Atualizações automatizadas
     </h3>
 
-    <p class="meio especial"> <!-- Esse parágrafo terá duas classes: meio E especial -->
+    <p class="meio especial">
         Você pode automatizar as atualizações do Bottlerocket usando um serviço de orquestração como o Amazon EKS. A Amazon também afirma que incluir apenas o software essencial para executar contêineres reduz o número de ataques em comparação com as distribuições Linux de uso geral.
     </p>
 
@@ -88,7 +68,7 @@
         O que você acha?
     </h3>
 
-    <p class="esq"> <!-- Não tem problema dois parágrafos serem da mesma classe -->
+    <p class="esq">
         A Amazon não é a primeira a criar um ‘Linux específico para contêineres’. O CoreOS foi uma das primeiras distribuições desse tipo. O CoreOS foi adquirido pela Red Hat, que foi vendida para a IBM. A Red Hat recentemente interrompeu o CoreOS e o substituiu pelo Fedora CoreOS. O servidor em nuvem é uma grande indústria que continuará a crescer. Um gigante como a Amazon fará de tudo para ficar à par ou à frente de seus concorrentes. Na minha opinião, Bottlerocket é uma resposta para (agora) o Fedora CoreOS da IBM. Embora os repositórios Bottlerocket estejam disponíveis no GitHub , ainda não é possível achar um pronto para criar imagens. No momento, ele está disponível apenas como uma prévia na AWS.
     </p>
 </body>
