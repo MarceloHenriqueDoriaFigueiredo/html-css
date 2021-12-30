@@ -16,6 +16,7 @@
         td, th{
             border: 1px solid black;
             padding: 10px;
+            position: relative;
         }
         caption{
             font-size: 1.5em;
@@ -27,10 +28,15 @@
             background-color: grey;
             color: white;
         }
-        tbody > tr:nth-child(ood){ /*pode usar 2n-1*/
+        thead > tr > th{
+            position: sticky;
+            top: 0;
+            background-color: grey;
+        }
+        tbody > tr:nth-child(ood){
             background-color: white;
         }
-        tbody > tr:nth-child(even){ /*pode usar 2n*/
+        tbody > tr:nth-child(even){
             background-color: lightgray;
         }
         td.num{
@@ -40,10 +46,7 @@
 </head>
 <body>
     <h1>Uso de tabelas grandes</h1>
-    <!--
-        CAPTION = legenda da tabela (titulo)
-
-    -->
+    
     <table>
         <caption>População das unidades Federativas</caption>
         <thead>
@@ -169,5 +172,16 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
+
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellendus inventore reiciendis soluta officiis id quae cumque nemo incidunt quam fugit? Incidunt enim perferendis quasi sunt magni nihil, esse similique impedit? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis voluptatibus nemo adipisci. Nisi, dolore eaque nihil sed, delectus maiores sint consequuntur, consectetur iure aperiam inventore officia! Culpa magni illum quam. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit temporibus odio, perferendis corrupti sapiente ipsa accusamus, provident doloribus, eos ut quia magnam delectus asperiores atque expedita maiores assumenda! Quisquam, praesentium?</p>
 </body>
 </html>
