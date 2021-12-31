@@ -36,18 +36,18 @@
 <body>
     <table>
         <thead>
-            <th rowspan="2" class="a1">Área</th>
-            <th rowspan="2" class="a2">Disciplinas</th>
-            <th colspan="2" class="a3">Notas</th>
-            <th rowspan="2" class="a4">Média</th>
+            <th rowspan="2" class="a1" scope="col">Área</th>
+            <th rowspan="2" class="a2" scope="colgroup">Disciplinas</th>
+            <th colspan="2" class="a3" scope="rowgroup">Notas</th>
+            <th rowspan="2" class="a4" scope="col">Média</th>
             <tr>
-                <th class="a5">Nota 1</th>
-                <th class="a6">Nota 2</th>
+                <th class="a5" scope="row">Nota 1</th>
+                <th class="a6" scope="row">Nota 2</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <th rowspan="4">Exatas</th>
+                <th rowspan="4" scope="colgroup">Exatas</th>
                 <td>Matematica</td>
                 <td class="nota">9.0</td>
                 <td class="nota">7.0</td>
@@ -76,7 +76,7 @@
                 <td id="center" class="a10">8.1</td>
             </tr>
             <tr>
-                <th rowspan="2">Humanas</th>
+                <th rowspan="2" scope="colgroup">Humanas</th>
                 <td>Historia</td>
                 <td class="nota">8.0</td>
                 <td class="nota">6.3</td>
