@@ -1,8 +1,11 @@
 # html-css
 
-<div align="center">
+<div align="center" style="display: flex;">
 
 ![image](https://user-images.githubusercontent.com/68343463/197367173-90fca54c-a906-418b-a549-6a2580bedfbe.png)
+
+![image](https://user-images.githubusercontent.com/68343463/197367468-f5da9564-86a4-4933-8613-01181b043d4e.png)
+
 
 </div>
 
