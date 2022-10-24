@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-/* Aparelho deitado (ladscape) */
+/* Aparelho deitado (orientation: landscape) */
 
 body{
     background-image: url(../imagens/cev-landscape.jpg);
